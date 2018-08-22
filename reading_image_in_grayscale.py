@@ -7,10 +7,15 @@ pathToImage = 'images/math-1500720_640.jpg'
 # reading an image
 img = cv2.imread(pathToImage)
 
+# reading an image with flag gray
+gray_image = cv2.imread(pathToImage, cv2.IMREAD_GRAYSCALE)
+
 # showing an image
 cv2.imshow('Image - ' + pathToImage, img)
 
-# we want to keep the window open. hence setting 0 in waitKey(). If a value xx is set, the image window will be closed after xx milliseconds
+# showing the grayscale image
+cv2.imshow('Grey image - '+ pathToImage, gray_image)
+
 cv2.waitKey(0)
 
 cv2.destroyAllWindows()
