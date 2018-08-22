@@ -1,3 +1,8 @@
+# Author: Ravi Kumar Gupta
+# Github: https://github.com/kravigupta
+# Twitter: https://twitter.com/kravigupta
+
+
 import cv2
 
 # Image downloaded from https://pixabay.com/en/math-symbols-blackboard-classroom-1500720/
